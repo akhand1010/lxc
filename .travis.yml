@@ -8,9 +8,10 @@ compiler:
 
 arch:
  - amd64
- - arm64
- - ppc64le
- - s390x
+ - arm64-graviton2
+
+virt: lxd
+group: edge
 
 before_install:
  - sudo add-apt-repository ppa:ubuntu-lxc/daily -y
